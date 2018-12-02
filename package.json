@@ -1,0 +1,23 @@
+{
+  "name": "author_title",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Furrukh Khan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "event-stream": "^3.3.4",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.9",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
